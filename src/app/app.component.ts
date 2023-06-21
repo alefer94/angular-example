@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'myfirstProject';
+  title = resultado;
+  sconde = 'Argumentados';
+
+
+
+
 }
+
+
+   const username : string = 'Nicolas';
+
+   const sum = (a: number , b: number) =>{
+    return a + b;
+   }
+   var resultado = sum(1,2);
