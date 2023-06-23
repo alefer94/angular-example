@@ -12,7 +12,11 @@ export class AppComponent {
 
   image = 'https://enciclopedia.net/wp-content/uploads/2014/04/persona.jpg';
 
-  btn = false ;
+  btn = true ;
+
+  myButton (){
+    this.btn = !this.btn ;
+  }
 
   valor = 19;
 
