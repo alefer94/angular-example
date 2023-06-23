@@ -7,11 +7,28 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = resultado;
-  sconde = 'Argumentados';
+
+  public age = 18;
+
+  image = 'https://enciclopedia.net/wp-content/uploads/2014/04/persona.jpg';
+
+  btn = false ;
+
+  valor = 19;
+
+  person = {
+    names : 'Juan' ,
+    edad : 17 ,
+    avatar : 'https://enciclopedia.net/wp-content/uploads/2014/04/persona.jpg'
+
+  }
 
 
+}
 
 
+function  suma(a:number , b:number) {
+    return a + b;
 }
 
 
